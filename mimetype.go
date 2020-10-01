@@ -15,6 +15,7 @@ func ByExtension(ext string) (string, error) {
 
 	mimeTypes := map[string]string{
 		// Image
+		"jpeg": "image/jpeg",
 		"jpg":  "image/jpeg",
 		"png":  "image/png",
 		"gif":  "image/gif",
