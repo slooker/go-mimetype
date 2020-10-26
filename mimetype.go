@@ -42,6 +42,7 @@ func ByExtension(ext string) (string, error) {
 		"mpeg": "video/mpeg",
 		"flv":  "video/x-flv",
 		"3gp":  "video/3gpp",
+		"ts":   "video/mp2t",
 		// Audio
 		"mid":  "audio/midi",
 		"mp3":  "audio/mpeg",
