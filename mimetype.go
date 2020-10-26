@@ -43,6 +43,9 @@ func ByExtension(ext string) (string, error) {
 		"flv":  "video/x-flv",
 		"3gp":  "video/3gpp",
 		"ts":   "video/mp2t",
+		// Video manifest
+		"m3u8": "application/x-mpegURL",
+		"m3u": "application/x-mpegURL",
 		// Audio
 		"mid":  "audio/midi",
 		"mp3":  "audio/mpeg",
