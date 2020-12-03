@@ -12,12 +12,13 @@ func ByExtension(ext string) (string, error) {
 		ext = strings.TrimPrefix(ext, ".")
 
 	}
+	ext = strings.ToLower(ext)
 
 	mimeTypes := map[string]string{
-        // text
-        "txt": "text/plain",
+		// text
+		"txt": "text/plain",
 		// Image
-		"jfi": "image/jpeg",
+		"jfi":  "image/jpeg",
 		"jfif": "image/jpeg",
 		"jpeg": "image/jpeg",
 		"jpg":  "image/jpeg",
@@ -47,7 +48,7 @@ func ByExtension(ext string) (string, error) {
 		"ts":   "video/mp2t",
 		// Video manifest
 		"m3u8": "application/x-mpegURL",
-		"m3u": "application/x-mpegURL",
+		"m3u":  "application/x-mpegURL",
 		// Audio
 		"mid":  "audio/midi",
 		"mp3":  "audio/mpeg",
