@@ -33,6 +33,7 @@ func ByExtension(ext string) (string, error) {
 		"psd":  "image/vnd.adobe.photoshop",
 		"ico":  "image/vnd.microsoft.icon",
 		"dwg":  "image/vnd.dwg",
+        "heic": "image/heic",
 		// Video
 		"mp4":  "video/mp4",
 		"m4v":  "video/x-m4v",
