@@ -17,6 +17,7 @@ func ByExtension(ext string) (string, error) {
 	mimeTypes := map[string]string{
 		// text
 		"txt": "text/plain",
+        "xmp": "application/rdf+xml",
 		// Image
 		"jfi":  "image/jpeg",
 		"jfif": "image/jpeg",
