@@ -15,6 +15,8 @@ func ByExtension(ext string) (string, error) {
 	ext = strings.ToLower(ext)
 
 	mimeTypes := map[string]string{
+        // weird formats
+        "mxf": "application/mxf",
 		// text
 		"txt": "text/plain",
         "xmp": "application/rdf+xml",
